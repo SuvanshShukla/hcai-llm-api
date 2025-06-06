@@ -32,7 +32,9 @@ python -m venv venv
 ## Install Dependecies
 
 > [!NOTE]
+> It is recommended to have around 2GB free in the drive/directory where you will clone this code
 > These dependecies are large in size, and can total upto 1GB upon downloading
+> The default model, though small, is still around 500MB in size.
 
 This project requires dependecies that can be downloaded with the following command:        
 
