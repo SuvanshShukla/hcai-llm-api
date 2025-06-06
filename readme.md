@@ -15,6 +15,7 @@ python -m venv venv
 ```
 
 Then activate the virtual environment.      
+
 For bash:
 
 ```bash
@@ -34,6 +35,7 @@ python -m venv venv
 > These dependecies are large in size, and can total upto 1GB upon downloading
 
 This project requires dependecies that can be downloaded with the following command:        
+
 When using the `requirements.txt` file:
 
 ```bash
