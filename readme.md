@@ -33,7 +33,14 @@ python -m venv venv
 > [!NOTE]
 > These dependecies are large in size, and can total upto 1GB upon downloading
 
-This project requires dependecies that can be downloaded with the following command:
+This project requires dependecies that can be downloaded with the following command:        
+When using the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+As a fresh set-up:
 
 ```bash
 pip install fastapi uvicorn transformers torch
