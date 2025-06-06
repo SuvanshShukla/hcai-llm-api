@@ -98,7 +98,7 @@ The large bars in the ouput mean that the model mentioned in `llm_model.py` is b
 ## Interacting with the model 
 
 Once your application is up and running, you should be able to interact with it via simple rest API.    
-Go to `http://0.0.0.0:8000` and you should see Swagger up and running.      
+Go to `http://0.0.0.0:8000/docs` and you should see Swagger up and running.      
 Here you can send your prompt as a request via the `/generate` end-point.   
 
 Or you can simply use cURL:
