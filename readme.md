@@ -37,7 +37,7 @@ You can confirm that everything has downloaded properly by checking the list of 
 pip list
 ```
 
-Make sure that the following are present:
+From the output make sure that the following are present:
 - fastapi      x.x.x
 - torch        x.x.x
 - transformers x.x.x
