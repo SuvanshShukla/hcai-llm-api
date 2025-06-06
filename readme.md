@@ -106,7 +106,7 @@ curl -X POST http://localhost:8000/generate \
 
 ## Other details
 
-Model used: [distilgpt2](https://huggingface.co/distilgpt2)
+Model used: [distilgpt2](https://huggingface.co/distilgpt2)     
 It's size is ~500MB
 
 Written by: Suvansh Shukla
