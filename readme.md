@@ -72,6 +72,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 Having the `--reload` flag should restart the server if you edit `llm_model.py` or `main.py`
 
 Once the server has started, the model in question would be downloaded automaticallly.      
+
 Output on the console will look something like this:
 
 ```
@@ -89,6 +90,8 @@ INFO:     Started server process [1218]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 ```
+
+The large bars in the ouput mean that the model mentioned in `llm_model.py` is being downloaded.
 
 ## Interacting with the model 
 
