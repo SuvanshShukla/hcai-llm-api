@@ -29,6 +29,8 @@ python -m venv venv
 .\venv\Scripts\activate
 ```
 
+If you forget to activate the virtual environment, you won't be able to start the server!
+
 ## Install Dependecies
 
 > [!NOTE]
