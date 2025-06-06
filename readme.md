@@ -3,8 +3,8 @@
 ## Prerequisites
 
 You'll need the following pre-installed in your system:
-- python
-- bash
+- Python 3.10+ must be installed. [Download from python.org](https://www.python.org/downloads/)
+- Git installed
 
 ## Set-up
 
@@ -14,10 +14,18 @@ Set up a virtual environment first, with the following command:
 python -m venv venv
 ```
 
-Then activate the virtual environment:
+Then activate the virtual environment.      
+For bash:
 
 ```bash
 source venv/bin/activate 
+```
+
+For powershell (windows):
+
+```powershell
+python -m venv venv
+.\venv\Scripts\activate
 ```
 
 ## Install Dependecies
