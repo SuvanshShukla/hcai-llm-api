@@ -1,10 +1,11 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
-model_name = "distilgpt2"
+# model_name = "distilgpt2"
+MODEL_PATH = "./DialoGPT-finetuned/"
 
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
+model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, trust_remote_code=True)
 model.eval()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
