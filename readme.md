@@ -34,9 +34,9 @@ If you forget to activate the virtual environment, you won't be able to start th
 ## Install Dependecies
 
 > [!NOTE]
-> It is recommended to have around 2GB free in the drive/directory where you will clone this code
-> These dependecies are large in size, and can total upto 1GB upon downloading
-> The default model, though small, is still around 500MB in size.
+> It is recommended to have around 2GB free in the drive/directory where you will clone this code       
+> These dependecies are large in size, and can total upto 1GB upon downloading      
+> The default model, though small, is still around 500MB in size.       
 
 This project requires dependecies that can be downloaded with the following command:        
 
@@ -123,6 +123,6 @@ It takes the history of the conversation and sends a request to the server.
 ## Other details
 
 Model used: [distilgpt2](https://huggingface.co/distilgpt2)     
-It's size is ~500MB
+It's size is ~500MB     
 
 Written by: Suvansh Shukla
