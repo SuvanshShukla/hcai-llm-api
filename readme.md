@@ -120,6 +120,26 @@ curl -X POST http://localhost:8000/generate \
 This payload has been updated to work with the front-end.   
 It takes the history of the conversation and sends a request to the server.     
 
+## Where should you put your model?
+
+This is what the directory structure should look like:
+
+```
+total 20
+./
+../
+.git/
+.gitignore*
+DialoGPT-finetuned/    👈 Put your model inside this directory
+__pycache__/
+llm_model.py*
+main.py*
+prompt-llm.txt*
+readme.md*
+requirements.txt*
+venv/
+```
+
 ## Other details
 
 Model used: [distilgpt2](https://huggingface.co/distilgpt2)     
