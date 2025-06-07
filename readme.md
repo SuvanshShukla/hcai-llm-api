@@ -108,8 +108,17 @@ Or you can simply use cURL:
 ```curl 
 curl -X POST http://localhost:8000/generate \
   -H "Content-Type: application/json" \
-  -d '{"prompt": "What is AI?", "max_tokens": 50}'
+  -d '{
+    "contents": [
+      { "role": "user", "parts": ["hello"] },
+      { "role": "model", "parts": ["Thinking.."] },
+      { "role": "user", "parts": ["Tell me a joke."] }
+    ]
+  }'
 ```
+
+This payload has been updated to work with the front-end.   
+It takes the history of the conversation and sends a request to the server.     
 
 ## Other details
 
