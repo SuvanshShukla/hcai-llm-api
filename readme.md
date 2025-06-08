@@ -1,5 +1,16 @@
 # Running a small LLM locally using fastAPI
 
+<!--toc:start-->
+- [Running a small LLM locally using fastAPI](#running-a-small-llm-locally-using-fastapi)
+  - [Prerequisites](#prerequisites)
+  - [Set-up](#set-up)
+  - [Install Dependecies](#install-dependecies)
+  - [Start the server](#start-the-server)
+  - [Interacting with the model](#interacting-with-the-model)
+  - [Where should you put your model?](#where-should-you-put-your-model)
+  - [Other details](#other-details)
+<!--toc:end-->
+
 ## Prerequisites
 
 You'll need the following pre-installed in your system:
