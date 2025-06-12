@@ -49,3 +49,11 @@ typing-inspection==0.4.1
 typing_extensions==4.14.0
 urllib3==2.4.0
 uvicorn==0.34.3
+
+# New dependencies for authentication and database
+PyJWT==2.10.1
+google-auth==2.32.0
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
+alembic==1.14.0
